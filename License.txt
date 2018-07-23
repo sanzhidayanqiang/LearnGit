@@ -8,3 +8,7 @@ git diff
 git log --pretty=oneline
 git reflog
 git reset --hard HEAD^（或者是commit id到达指定版本） 上一个版本
+
+git checkout -- file（回退工作区）
+
+git reset HEAD file(缓存区回退到工作区)
