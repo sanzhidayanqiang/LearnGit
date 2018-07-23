@@ -1,0 +1,10 @@
+git
+
+git init
+git add
+git commit -m "describle"
+git status
+git diff
+git log --pretty=oneline
+git reflog
+git reset --hard HEAD^（或者是commit id到达指定版本） 上一个版本
