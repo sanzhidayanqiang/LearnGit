@@ -12,3 +12,9 @@ git reset --hard HEAD^（或者是commit id到达指定版本） 上一个版本
 git checkout -- file（回退工作区）
 
 git reset HEAD file(缓存区回退到工作区)
+
+git remote add origin github_addr
+
+git push -u origin master第一次推送master分支的所有内容
+
+git push origin master
